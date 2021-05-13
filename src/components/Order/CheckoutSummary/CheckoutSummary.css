@@ -1,0 +1,25 @@
+.CancelButton {
+    background-color: rgb(209, 150, 72);
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #966909;
+    color: #fafaf9;
+    font-family: inherit;
+    font-size: 1.2em;
+    padding: 2px 10px;
+    box-shadow: 2px 2px 2px #966909;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .CancelButton:hover, .CancelButton:active {
+    background-color: #966909 ;
+    border: 1px solid #966909;
+    color: #fafaf9;
+  }
+
+  .Total {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}

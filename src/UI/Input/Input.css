@@ -1,0 +1,10 @@
+.Valid{
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+.Invalid{
+    border: none;
+    border-bottom: 1px solid red;
+    
+}

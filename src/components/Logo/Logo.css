@@ -1,0 +1,32 @@
+.Logo{
+    height: 80%;
+    background-color: cornsilk;
+    padding: 2px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+}
+
+.Logo img{
+    height: 80%;
+    margin-top: 5px;
+}
+
+figcaption{
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+@media(min-width:500px){
+    .Logo img{
+        height: 80%;
+    }
+    
+    figcaption{
+        font-size: 0.9rem;
+        font-weight: bold;
+        margin: 0;
+    }
+}

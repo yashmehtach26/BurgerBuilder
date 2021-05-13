@@ -1,0 +1,55 @@
+.BuildControls{
+    width: 100%;
+    background-color: #DC7A36;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    box-shadow: 0 2px 1px #cccccc;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+
+.OrderButton {
+    background-color: rgb(209, 150, 72);
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #966909;
+    color: #fafaf9;
+    font-family: inherit;
+    font-size: 1.2em;
+    padding: 2px 30px;
+    box-shadow: 2px 2px 2px #966909;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.OrderButton:hover, .OrderButton:active {
+    background-color: #966909 ;
+    border: 1px solid #966909;
+    color: #fafaf9;
+}
+
+.OrderButton:disabled {
+    background-color: rgba(238, 190, 134, 0.678);
+    cursor: not-allowed;
+    border: 1px solid #ccc;
+    color: #faf5f5;
+}
+
+.OrderButton:not(:disabled) {
+    animation: enable 0.3s linear;
+}
+
+@keyframes enable {
+    0% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
